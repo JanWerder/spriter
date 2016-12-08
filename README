@@ -1,3 +1,6 @@
+Ported the source over to 0.10.2
+original code comes from https://bitbucket.org/hardcrawler/spriter/overview
+
 id/references Note:
 This parser is adding 1 to all id/parent/etc values and references because of Lua 1 based tables
 From looking at the data, I am assuming that the ID in the data is a 1:1 mapping to C-style 0-indexed arrays
